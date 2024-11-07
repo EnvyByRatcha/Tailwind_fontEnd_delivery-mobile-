@@ -13,25 +13,222 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--Header Start-->
 
-    <header class="bg-[#01b04f] w-full h-24 flex items-center">
-      <div class="flex justify-between w-full">
+    <header class="bg-[#01b04f] w-full h-24 px-6 pt-6 relative">
+      <div class="flex flex-row justify-between w-full">
         <div class="text-white">
-          <h1 class="text-sm font-bold">Delivery to</h1>
-          <h1 class="">
-            FoodLabs Office <i class="fa-solid fa-circle-chevron-down"></i>
+          <h1 class="text-sm font-semibold">DELIVERY TO</h1>
+          <h1 class="text-sm">
+            FoodLabs Office <i class="fa-solid fa-chevron-down"></i>
           </h1>
         </div>
-        <div class="flex gap-2 text-white">
-            <div class="rounded-full border-2 bg-[#3cb271] px-4 flex justify-center items-center"><i class="fa-regular fa-heart"></i></div>
-            <div class="rounded-full border-2 bg-[#01b04f] px-4 flex justify-center items-center"><i class="fa-solid fa-bag-shopping"></i></div>
+        <div class="flex gap-2 text-white text-xl">
+          <div
+            class="rounded-full flex justify-center items-center px-3 bg-white bg-opacity-25"
+          >
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div
+            class="rounded-full flex justify-center items-center px-3 bg-white bg-opacity-25"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </div>
         </div>
+      </div>
+      <div
+        class="bg-white rounded-md w-5/6 px-2 py-2 shadow-lg absolute -bottom-5 left-8 border"
+      >
+        <button>
+          <i class="fa-solid fa-magnifying-glass mr-2 text-sm"></i>
+        </button>
+        <input class="text-xs" placeholder="Search dishes, restaurants" />
       </div>
     </header>
 
     <!--Header End-->
+
+    <!--Content End-->
+
+    <div class="pt-8 pl-6">
+      <div class="flex justify-between items-end pr-6">
+        <p>All Categories</p>
+        <p class="text-xs">
+          See All<i class="fa-solid fa-chevron-right ml-2"></i>
+        </p>
+      </div>
+      <div class="flex flex-row gap-6 mt-2">
+        <div class="flex flex-col items-center">
+          <img
+            class="object-cover h-12 w-12"
+            src="https://t3.ftcdn.net/jpg/01/92/64/78/360_F_192647838_u0KyNv0op5GqNITm2E9NY9PREabBGhO0.jpg"
+            alt=""
+          />
+          <p class="text-xs font-light">Spagetti</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img
+            class="object-cover h-12 w-12"
+            src="https://static.vecteezy.com/system/resources/thumbnails/029/141/076/small_2x/delicious-food-restaurant-food-top-view-food-with-transparent-background-ai-generative-free-png.png"
+            alt=""
+          />
+          <p class="text-xs font-light">Salad</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img
+            class="object-cover h-12 w-12"
+            src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo="
+            alt=""
+          />
+          <p class="text-xs font-light">Meat</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img
+            class="object-cover h-12 w-12"
+            src="https://png.pngtree.com/png-clipart/20230410/ourmid/pngtree-prawns-fish-food-top-view-png-image_6697185.png"
+            alt=""
+          />
+          <p class="text-xs font-light">Seafood</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img
+            class="object-cover h-12 w-12"
+            src="https://www.shutterstock.com/image-photo/chicken-burger-top-view-full-600nw-2511687169.jpg"
+            alt=""
+          />
+          <p class="text-xs font-light">Fastfood</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-6 px-6">
+      <div class="grid grid-cols-2 gap-4">
+        <div class="flex flex-col gap-1 rounded-xl bg-red-300 h-16 px-2 py-2">
+          <p class="text-xs">Restuarant Near me</p>
+          <div class="font-light" style="font-size: 10px">Order Now!!</div>
+        </div>
+        <div class="flex flex-col gap-1 rounded-xl bg-blue-200 h-16 px-2 py-2">
+          <p class="text-xs">Code 'SMALL' Discount 3$.*</p>
+          <div class="font-light" style="font-size: 10px">
+            Lorem ipsum dolor sit amet consectetur.
+          </div>
+        </div>
+        <div class="flex flex-col gap-1 rounded-xl bg-green-300 h-16 px-2 py-2">
+          <p class="text-xs">HOTDEALS' Dis 2.5$.*</p>
+          <div class="font-light" style="font-size: 10px">
+            Lorem ipsum dolor sit amet.
+          </div>
+        </div>
+        <div class="flex flex-col gap-1 rounded-xl bg-sky-300 h-16 px-2 py-2">
+          <p class="text-xs">REC. Restuarant</p>
+          <div class="font-light" style="font-size: 10px">
+            Lorem ipsum dolor sit amet consectetur.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col py-6 px-6 gap-2">
+      <div class="flex justify-between">
+        <p>Open restaurants</p>
+        <p>See All<i class="fa-solid fa-chevron-right ml-2"></i></p>
+      </div>
+
+      <div id="restaurantList" class="flex flex-col gap-4"></div>
+    </div>
+
+    <!--Content End-->
+
+    <!--Footer Nav Start-->
+
+    <div class="flex flex-row justify-around items-center border-t-2 pt-2 pb-1 px-2">
+      <div class="flex flex-col text-center hover:text-[#01b04f]">
+        <i class="fa-solid fa-house"></i>
+        <p class="font-light" style="font-size: 10px">Home</p>
+      </div>
+      <div class="flex flex-col text-center hover:text-[#01b04f]">
+        <i class="fa-solid fa-file"></i>
+        <p class="font-light" style="font-size: 10px">Order</p>
+      </div>
+      <div class="flex flex-col text-center hover:text-[#01b04f]">
+        <i class="fa-solid fa-wallet"></i>
+        <p class="font-light" style="font-size: 10px">Payment</p>
+      </div>
+      <div class="flex flex-col text-center hover:text-[#01b04f]">
+        <i class="fa-solid fa-comment-dots"></i>
+        <p class="font-light" style="font-size: 10px">Message</p>
+      </div>
+      <div class="flex flex-col text-center hover:text-[#01b04f]">
+        <i class="fa-solid fa-user"></i>
+        <p class="font-light" style="font-size: 10px">Account</p>
+      </div>
+    </div>
+
+    <!--Footer Nav End-->
+    <script>
+      const restaurants = [
+        {
+          name: "Thong Thai Restaurant",
+          description: "Somtum - Grill chicken - Yum",
+          rating: 4.7,
+          deliveryCost: "Free",
+          deliveryTime: "30 min",
+          img: "https://t3.ftcdn.net/jpg/02/60/12/88/360_F_260128861_Q2ttKHoVw2VrmvItxyCVBnEyM1852MoJ.jpg",
+          link: "#",
+        },
+        {
+          name: "Hotdog Land",
+          description: "Hogdog - Ice Tea - Salad",
+          rating: 4.5,
+          deliveryCost: "Free",
+          deliveryTime: "20 min",
+          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxQfjge5wtYCjTFDS25TRV79nhA8dzjXOiDg&s",
+          link: "#",
+        },
+        {
+          name: "Stake House",
+          description: "Stake - Beef - Spagetti",
+          rating: 4.8,
+          deliveryCost: "3$",
+          deliveryTime: "30-45 min",
+          img: "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1273516682.jpg?c=original",
+          link: "#",
+        },
+      ];
+
+      const restaurantContainer = document.getElementById("restaurantList");
+
+      restaurants.forEach((item) => {
+        const detail = `<a href="${item.link}">
+        <img class="object-cover w-full h-28 rounded-lg" src="${item.img}" alt="${item.name}" />
+        <p>${item.name}</p>
+        <p class="font-light" style="font-size: 10px">
+          ${item.description}
+        </p>
+        <div class="flex gap-4 mt-1" style="font-size: 10px">
+          <div class="font-bold">
+            <i class="fa-regular fa-star mr-1"></i>${item.rating}
+          </div>
+          <div class="font-ligh">
+            <i class="fa-solid fa-truck-fast mr-1"></i>${item.deliveryCost}
+          </div>
+          <div class="font-ligh">
+            <i class="fa-regular fa-clock mr-1"></i>${item.deliveryTime}
+          </div>
+        </div>
+      </a>`;
+
+        restaurantContainer.innerHTML += detail;
+      });
+    </script>
   </body>
 </html>
